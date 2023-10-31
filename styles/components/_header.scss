@@ -6,7 +6,7 @@ header {
     @include background-stuff();
 
     .logo-name {
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: $medium) {
             margin-bottom: 48px;
         }
 
@@ -39,7 +39,7 @@ header {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $medium) {
     header {
         display: flex;
         align-items: flex-end;

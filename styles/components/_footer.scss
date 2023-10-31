@@ -23,7 +23,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $medium) {
     footer {
         .social-media {
             width: 50%;
